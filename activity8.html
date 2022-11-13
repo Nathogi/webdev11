@@ -1,0 +1,31 @@
+<html>
+    <head>
+        <body>
+            <script>
+                let num = [1,2,3,4,5,6];
+                let odd = [];
+                let even = [];
+
+                var position = 0 ;
+
+                while (position < num.length){
+                if (num[position]%2 == 0){
+                even.push(num[position]);
+                position++;
+                }
+                else if (num[position]% 2 != 0){
+                odd.push(num[position]);
+                position++;
+                }
+            }
+        
+                var odd_sum = odd[0] + odd[1] + odd[2];
+                var even_sum = even[0] + even[1] + even[2];
+
+                document.write("SumOfOddPosition = " +odd_sum);
+                document.write("<br>");
+                document.write("SumOfEvenPosition = " +even_sum);            
+            </script>
+        </body>
+    </head>
+</html>
