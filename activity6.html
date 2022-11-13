@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <body>
+            <script>
+                var q1,q2,act1,act2,act3,exam;
+                q1=2.0;
+                q2=3.0;
+                act1=2.5;
+                act2=3.0;
+                act3=2.0;
+                exam=2.5;
+
+                var averageQuiz = q1+q2/2;
+                var averageActivity = act1+act2+act3/3;
+                
+                var FG = (0.4*averageQuiz)+(0.3*averageActivity)+(0.3*exam);
+
+                if (FG>=3.0) {
+                    document.write("Congratulations, you passed the subject!");
+                }
+                else if (FG<=3.1) {
+                    document.write("Sorry you need to re-enrol the subject!");
+                }     
+
+                
+            </script>
+        </body>
+    </head>
+</html>
