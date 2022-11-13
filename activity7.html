@@ -1,0 +1,38 @@
+<html>
+    <head>
+        <body>
+            <script>
+                var GrossIncome,Deduction,NetIncome,Tax;
+                GrossIncome=35000;
+                Deduction=3000;
+                
+                var NetIncome = GrossIncome-Deduction;
+
+                if (NetIncome <= 8000) {
+                    var Tax = NetIncome*0.03;
+                    document.write("Gross Income = "+GrossIncome);
+                    document.write("<br>");
+                    document.write("Net Income = "+NetIncome);
+                    document.write("<br>");
+                    document.write("Tax = "+Tax);
+                }
+                else if (NetIncome >= 8001 && NetIncome <= 15000) {
+                    var Tax = NetIncome*0.05;
+                    document.write("Gross Income = "+GrossIncome);
+                    document.write("<br>");
+                    document.write("Net Income = "+NetIncome);
+                    document.write("<br>");
+                    document.write("Tax = "+Tax);
+                }
+                else if (NetIncome >= 15000) {
+                    var Tax = NetIncome*0.08;
+                    document.write("Gross Income = "+GrossIncome);
+                    document.write("<br>");
+                    document.write("Net Income = "+NetIncome);
+                    document.write("<br>");
+                    document.write("Tax = "+Tax);
+                }
+            </script>
+        </body>
+    </head>
+</html>
