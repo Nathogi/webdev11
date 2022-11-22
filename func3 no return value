@@ -1,0 +1,33 @@
+<html>
+    <head>
+        <script>
+            function add(x,y)
+            {
+                s = x + y;
+                document.write("the sum is " + s);
+                document.write("<br>");
+                
+            }
+            function product(x,y)
+            {
+                product = x * y;
+                document.write("the product is " + product);
+                document.write("<br>");
+            }
+            function division(x,y)
+            {
+                quotient = x/y;
+                document.write("the quotient is " + quotient);
+            }
+        </script>
+    </head>
+        <body>
+            <script>
+                x=10; y=20;
+                add(x,y);
+                product(x,y);
+                division(x,y)
+            </script>
+        </body>
+   
+</html>
